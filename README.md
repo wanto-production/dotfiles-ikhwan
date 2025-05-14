@@ -1,5 +1,13 @@
 # dotfiles by ikhwan satrio
 
+## features
+
+- zsh + theme powerlevel10k
+- nvim config
+- neofetch config
+- kitty config
+- nerd fonts pack
+
 ## how to use my dotefiles
 
 1. clone the repo
