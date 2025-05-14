@@ -12,8 +12,8 @@
 ## tmux keybinds
 
 | **Function**               | **Shortcut**  |
-| -------------------------- | ------------- |
-| Split panel horizontally   | Ctrl + a ->   |
+| -------------------------- | ------------- | 
+| Split panel horizontally   | Ctrl + a -> | |  
 | Split panel vertically     | Ctrl + a -> - |
 | Switch to the left panel   | Ctrl + a -> h |
 | Switch to the bottom panel | Ctrl + a -> j |
