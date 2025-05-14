@@ -6,6 +6,7 @@
 - nvim config
 - neofetch config
 - kitty config
+- tmux config
 - nerd fonts pack
 
 ## how to use my dotefiles
