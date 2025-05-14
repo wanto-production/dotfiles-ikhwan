@@ -1,8 +1,5 @@
 #!/bin/bash
 
-stow kitty
-stow neofetch
-stow nvim
-stow oh-my-zsh
+stow config
 stow zsh
 stow fonts
