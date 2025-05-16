@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- import/override with your plugins folder
 }
