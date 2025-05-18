@@ -18,6 +18,10 @@ if command -v zoxide >/dev/null 2>&1; then
     eval "$(zoxide init zsh)"
 fi
 
+if command -v fdfind >/dev/null 2>&1; then
+  alias fd=fdfind
+fi
+
 # >>> NVM Configuration >>>
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"        # This loads nvm
