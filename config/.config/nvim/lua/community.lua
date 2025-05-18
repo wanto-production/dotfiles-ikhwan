@@ -2,8 +2,6 @@
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
 -- This guarantees that the specs are processed before any user plugins.
 
-local utils = require "utils.is_installed"
-
 ---@type LazySpec
 local server = {
   "AstroNvim/astrocommunity",
