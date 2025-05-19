@@ -9,7 +9,6 @@ local server = {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
