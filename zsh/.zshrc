@@ -22,6 +22,11 @@ if command -v fdfind >/dev/null 2>&1; then
   alias fd=fdfind
 fi
 
+# android sdk
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+[ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH
+[ -x "ANDROID_SDK_ROOT/platform-tools" ] && export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
+
 # >>> NVM Configuration >>>
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"        # This loads nvm
