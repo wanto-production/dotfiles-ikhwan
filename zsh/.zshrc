@@ -30,8 +30,9 @@ if command -v java >/dev/null 2>&1; then
 fi
 
 export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
-[ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH
-[ -x "ANDROID_SDK_ROOT/platform-tools" ] && export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
+[ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH"
+[ -x "$ANDROID_SDK_ROOT/platform-tools" ] && export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
+[ -x "$ANDROID_SDK_ROOT/emulator" ] && export PATH="$ANDROID_SDK_ROOT/emulator:$PATH"
 
 # >>> NVM Configuration >>>
 export NVM_DIR="$HOME/.nvm"
