@@ -23,6 +23,12 @@ if command -v fdfind >/dev/null 2>&1; then
 fi
 
 # android sdk
+
+if command -v java >/dev/null 2>&1; then
+    export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
+    export PATH="$JAVA_HOME/bin:$PATH"
+fi
+
 export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
 [ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH
 [ -x "ANDROID_SDK_ROOT/platform-tools" ] && export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
