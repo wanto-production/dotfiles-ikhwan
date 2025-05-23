@@ -19,7 +19,6 @@ return {
         git_status = {
           follow_current_file = true,
           show_all = true,
-          timeout = 500,
         },
         filesystem = {
           follow_current_file = { enabled = true },
