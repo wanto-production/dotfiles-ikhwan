@@ -1,4 +1,16 @@
 -- Customize Mason
+local ensure_installed = {
+  -- install language servers
+  "lua-language-server",
+
+  "tailwindcss-language-server",
+
+  "debugpy",
+  -- install formatters
+  "stylua",
+  -- install any other package
+  "tree-sitter-cli",
+}
 
 ---@type LazySpec
 return {
@@ -8,19 +20,7 @@ return {
     -- overrides `require("mason-tool-installer").setup(...)`
     opts = {
       -- Make sure to use the names found in `:Mason`
-      ensure_installed = {
-        -- install language servers
-        "lua-language-server",
-
-        -- install formatters
-        "stylua",
-
-        -- install debuggers
-        "debugpy",
-
-        -- install any other package
-        "tree-sitter-cli",
-      },
+      ensure_installed = ensure_installed,
     },
   },
 }
