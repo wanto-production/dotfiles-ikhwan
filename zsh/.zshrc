@@ -29,10 +29,16 @@ if command -v java >/dev/null 2>&1; then
     export PATH="$JAVA_HOME/bin:$PATH"
 fi
 
+# >>> android dev >>>
+
+[ -x "$HOME/flutter/bin" ] && export PATH="$HOME/flutter/bin:$PATH"
+
 export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
 [ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH"
 [ -x "$ANDROID_SDK_ROOT/platform-tools" ] && export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
 [ -x "$ANDROID_SDK_ROOT/emulator" ] && export PATH="$ANDROID_SDK_ROOT/emulator:$PATH"
+
+# <<< android dev <<<
 
 # >>> NVM Configuration >>>
 export NVM_DIR="$HOME/.nvm"
