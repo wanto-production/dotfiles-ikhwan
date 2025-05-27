@@ -31,9 +31,9 @@ fi
 
 # >>> android dev >>>
 
-[ -x "$HOME/flutter/bin" ] && export PATH="$HOME/flutter/bin:$PATH"
+[ -x "$HOME/development/flutter/bin" ] && export PATH="$HOME/development/flutter/bin:$PATH"
 
-export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+export ANDROID_SDK_ROOT="$HOME/development/Android/Sdk"
 [ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH"
 [ -x "$ANDROID_SDK_ROOT/platform-tools" ] && export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
 [ -x "$ANDROID_SDK_ROOT/emulator" ] && export PATH="$ANDROID_SDK_ROOT/emulator:$PATH"
@@ -47,9 +47,9 @@ export NVM_DIR="$HOME/.nvm"
 # <<< NVM Configuration <<<
 
 [[ -d "/usr/local/go" ]] && export PATH="/usr/local/go/bin:$PATH"
-[[ -d "$HOME/go" ]] && export PATH="$HOME/go/bin:$PATH"
+[[ -d "$HOME/development/go" ]] && export PATH="$HOME/development/go/bin:$PATH"
 
-[[ -d "$HOME/nvim-app/bin" ]] && export PATH="$HOME/nvim-app/bin:$PATH"
+[[ -d "$HOME/development/nvim-app/bin" ]] && export PATH="$HOME/development/nvim-app/bin:$PATH"
 
 # Bun setup
 [[ -d "$HOME/.bun" ]] && export BUN_INSTALL="$HOME/.bun"
