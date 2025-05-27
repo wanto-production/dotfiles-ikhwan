@@ -52,7 +52,7 @@ export NVM_DIR="$HOME/.nvm"
 [[ -d "$HOME/development/nvim-app/bin" ]] && export PATH="$HOME/development/nvim-app/bin:$PATH"
 
 # Bun setup
-[[ -d "$HOME/.bun" ]] && export BUN_INSTALL="$HOME/.bun"
+[[ -d "$HOME/development/.bun" ]] && export BUN_INSTALL="$HOME/development/.bun"
 [ -x "$BUN_INSTALL/bin" ] && export PATH="$BUN_INSTALL/bin:$PATH"
 
 
