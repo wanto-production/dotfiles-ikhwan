@@ -57,5 +57,5 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # bun completions
-[ -s "/home/ikhwan-satrio/.bun/_bun" ] && source "/home/ikhwan-satrio/.bun/_bun"
+[ -s "$HOME/development/.bun/_bun" ] && source "$HOME/development/.bun/_bun"
 
