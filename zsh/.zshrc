@@ -31,7 +31,7 @@ fi
 
 # >>> android dev >>>
 
-[ -x "$HOME/development/flutter/bin" ] && export PATH="$HOME/development/flutter/bin:$PATH"
+[ -x "$HOME/flutter/bin" ] && export PATH="$HOME/flutter/bin:$PATH"
 
 export ANDROID_SDK_ROOT="$HOME/development/Android/Sdk"
 [ -x "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin" ] && export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH"
