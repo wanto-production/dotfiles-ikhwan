@@ -54,8 +54,3 @@ export NVM_DIR="$HOME/development/.nvm"
 # Bun setup
 [[ -d "$HOME/development/.bun" ]] && export BUN_INSTALL="$HOME/development/.bun"
 [ -x "$BUN_INSTALL/bin" ] && export PATH="$BUN_INSTALL/bin:$PATH"
-
-
-# bun completions
-[ -s "$HOME/development/.bun/_bun" ] && source "$HOME/development/.bun/_bun"
-
