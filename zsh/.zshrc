@@ -40,6 +40,10 @@ export ANDROID_SDK_ROOT="$HOME/development/Android/Sdk"
 
 # <<< android dev <<<
 
+# >>> pipx >>>
+[ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
+# <<< pipx <<<
+
 # >>> NVM Configuration >>>
 export NVM_DIR="$HOME/development/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"        # This loads nvm
