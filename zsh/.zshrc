@@ -54,3 +54,6 @@ export NVM_DIR="$HOME/development/.nvm"
 # Bun setup
 [[ -d "$HOME/development/.bun" ]] && export BUN_INSTALL="$HOME/development/.bun"
 [ -x "$BUN_INSTALL/bin" ] && export PATH="$BUN_INSTALL/bin:$PATH"
+
+# php vendor
+[[ -d "$HOME/.config/composer" ]] && export PATH="$HOME/.config/composer/vendor/bin:$PATH"
