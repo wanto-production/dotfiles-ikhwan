@@ -12,7 +12,7 @@ local server = {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.pack.dart" },
+  { import = "astrocommunity.pack.php" },
 }
 
 return server
