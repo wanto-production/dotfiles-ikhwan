@@ -8,7 +8,6 @@ local server = {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.astro" },
-  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
