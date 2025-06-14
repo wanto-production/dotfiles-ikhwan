@@ -9,6 +9,7 @@ local server = {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.pack.php" },
